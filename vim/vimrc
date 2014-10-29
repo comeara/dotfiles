@@ -9,7 +9,7 @@ set expandtab                               " expand tabs to spaces
 set tabstop=2 softtabstop=2                 " number of spaces inserted for a tab
 set shiftwidth=2                            " number of spaces inserted per level of indent
 set incsearch                               " incremental searching
-set cursorline                              " highlight screen line of the cursor
+"set cursorline                              " highlight screen line of the cursor
 set scrolloff=3                             " always show 3 lines above/below cursor line
 set number                                  " display line numbers
 set showmatch                               " briefly displays matching bracket
@@ -38,8 +38,8 @@ set statusline+=%10(L(%l/%L)%)\             " line
 set statusline+=%2(C(%v/125)%)\             " column
 set statusline+=%P
 
-set background=dark
-colorscheme railscasts
+"set background=dark
+"colorscheme railscasts
 
 " rspec integration
 map ,t :call RunSpecFile()<CR>
